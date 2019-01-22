@@ -1,3 +1,4 @@
+<img src="https://openclipart.org/image/2400px/svg_to_png/168877/owl-notebook.png" width=100 height=100></img>
 # Topic Network - topic modeling with text networks
 ![alt text](https://img.shields.io/pypi/pyversions/topicnetwork.svg) ![alt text](https://img.shields.io/pypi/l/topicnetwork.svg) ![alt text](https://img.shields.io/pypi/v/topicnetwork.svg)
 
