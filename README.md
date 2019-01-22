@@ -1,7 +1,7 @@
 # Topic Network - topic modeling with text networks
 ![alt text](https://img.shields.io/pypi/pyversions/topicnetwork.svg) ![alt text](https://img.shields.io/pypi/l/topicnetwork.svg) ![alt text](https://img.shields.io/pypi/v/topicnetwork.svg)
 
-This package introduces a novel method for topic modeling using community detection in complex networks. The algorithms included in the package first create a network of collocated terms, filters out unimportant words based on centrality measures, and then uses community detection to reveal the topic groups in the network. 
+This package introduces a novel method for topic modeling using community detection in complex networks. The algorithms included in the package first create a network of collocated terms, filter out unimportant words based on centrality measures, and then use community detection to reveal the topic groups in the network. 
 
 The methods used are language-agnostic, meaning that you can perform the topic modeling on any text in any language. It is an early version, hence there might be performance issues when modeling big corpora. These are to be resolved in upcoming updates.
 
