@@ -1,5 +1,5 @@
 # Topic Network - topic modeling with text networks
-![alt text](https://img.shields.io/pypi/pyversions/topicnetwork.svg) ![alt text](https://img.shields.io/pypi/l/topicnetwork.svg)
+![alt text](https://img.shields.io/pypi/pyversions/topicnetwork.svg) ![alt text](https://img.shields.io/pypi/l/topicnetwork.svg) ![alt text](https://img.shields.io/pypi/v/topicnetwork.svg)
 
 This package builds a text network out of a list of strings, picks the most important words on the basis of betweenness centrality measure, and performs community detection to group the words into topic networks and return the groups. The methods used are language-agnostic, meaning that you can perform the topic modeling on any text in any language.
 The package uses NetworkX to build the network and perform the necessary calculations. 
