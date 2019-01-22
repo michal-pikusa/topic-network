@@ -6,7 +6,7 @@ The package uses NetworkX to build the network and perform the necessary calcula
 
 ## Usage
 
-To install the package, use::
+To install the [current version](https://pypi.org/project/topicnetwork/) of the package, use::
 
 ```python
 pip install topicnetwork
