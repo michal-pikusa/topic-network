@@ -37,10 +37,14 @@ def create_and_assign_communities(text_network):
     return next_level_communities
 
 def find_topics(text):
-    text_network = build_graph(text)
-    text_network = calculate_central_nodes(text_network)
-    topics = create_and_assign_communities(text_network)
-    return topics
+    try:
+        text_network = build_graph(text)
+        text_network = calculate_central_nodes(text_network)
+        topics = create_and_assign_communities(text_network)
+        return topics
+    except:
+        print("Error: Something went wrong. Check your input. You need at least 20 unique words in your text to start the analysis.")
+        
 
 def clean(text):
     new_text = []

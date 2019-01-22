@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='topicnetwork',
-      version='0.1.3',
+      version='0.1.4',
       description='Topic modeling with text networks',
       long_description=readme(),
       long_description_content_type="text/markdown",
@@ -16,7 +16,7 @@ setup(name='topicnetwork',
         'Topic :: Text Processing :: Linguistic',
       ],
       keywords='topic network community detection',
-      url='http://github.com/michal_pikusa/topic-network',
+      url='http://github.com/michal-pikusa/topic-network',
       author='Michal Pikusa',
       author_email='pikusa.michal@gmail.com',
       license='MIT',
